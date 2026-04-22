@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: httpd
-          image: thinknyx.azurecr.io/httpd:1.0
+          image: thinknyx.azurecr.io/httpd:2.0
           ports:
             - containerPort: 80
               protocol: TCP
